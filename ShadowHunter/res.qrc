@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/card">
+        <file>imgs/card.png</file>
+        <file>imgs/mouseCursor.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
