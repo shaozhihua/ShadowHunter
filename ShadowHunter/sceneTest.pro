@@ -18,8 +18,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     Button.cpp \
     carditem.cpp \
+    centralarea.cpp \
     decisionarea.cpp \
     deckarea.cpp \
+    deckitem.cpp \
     handarea.cpp \
     main.cpp \
     playerarea.cpp \
@@ -30,8 +32,10 @@ SOURCES += \
 HEADERS += \
     Button.h \
     carditem.h \
+    centralarea.h \
     decisionarea.h \
     deckarea.h \
+    deckitem.h \
     handarea.h \
     playerarea.h \
     playeritem.h \

@@ -6,6 +6,7 @@
 #include <QList>
 #include "playeritem.h"
 
+
 class PlayerArea : public QGraphicsObject
 {
     Q_OBJECT

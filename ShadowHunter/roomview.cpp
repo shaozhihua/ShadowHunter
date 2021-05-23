@@ -5,6 +5,7 @@
 #include "playeritem.h"
 #include "playerarea.h"
 #include "deckarea.h"
+#include "centralarea.h"
 #define gWidth 1280*0.9
 #define gHeight 800*0.85
 RoomView::RoomView()
@@ -33,6 +34,9 @@ RoomView::RoomView()
     playerArea->Init();
     //创建牌库区域
     DeckArea *deckArea = new DeckArea();
+    //创建游戏中心区域
+    CentralArea *centralArea = new CentralArea();
+
 
 
     //将各个区域添加到房间场景
@@ -40,6 +44,7 @@ RoomView::RoomView()
     roomScene->addItem(decisionarea);
     roomScene->addItem(playerArea);
     roomScene->addItem(deckArea);
+    roomScene->addItem(centralArea);
 
     //将房间场景设置到房间视图
     setScene(roomScene);
